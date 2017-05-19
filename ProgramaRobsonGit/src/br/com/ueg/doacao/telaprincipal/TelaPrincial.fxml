@@ -72,7 +72,7 @@
          <top>
             <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <items>
-                  <Button alignment="BOTTOM_CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#adicionarDoacao" prefHeight="100.0" prefWidth="90.0" text="Doar">
+                  <Button alignment="BOTTOM_CENTER" contentDisplay="TOP" mnemonicParsing="false" prefHeight="100.0" prefWidth="90.0" text="Doar">
                      <graphic>
                         <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -84,7 +84,7 @@
                         <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                      </padding>
                   </Button>
-                  <Button fx:id="btnOngs" alignment="BOTTOM_CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#adicionarOngs" prefHeight="100.0" prefWidth="90.0" text="Ongs" textOverrun="WORD_ELLIPSIS">
+                  <Button alignment="BOTTOM_CENTER" contentDisplay="TOP" mnemonicParsing="false" prefHeight="100.0" prefWidth="90.0" text="Ongs" textOverrun="WORD_ELLIPSIS">
                      <graphic>
                         <ImageView fitHeight="74.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -96,7 +96,7 @@
                         <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                      </padding>
                   </Button>
-                  <Button fx:id="btnUsers1" alignment="BOTTOM_CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#adicionarUser" prefHeight="100.0" prefWidth="90.0" text="Usuários">
+                  <Button alignment="BOTTOM_CENTER" contentDisplay="TOP" mnemonicParsing="false" prefHeight="100.0" prefWidth="90.0" text="Usuários">
                      <graphic>
                         <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
                            <image>

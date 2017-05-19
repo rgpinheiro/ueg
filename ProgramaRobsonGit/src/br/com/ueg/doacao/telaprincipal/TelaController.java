@@ -1,5 +1,6 @@
 package br.com.ueg.doacao.telaprincipal;
 
+import java.awt.Button;
 import java.awt.event.ActionEvent;
 import java.io.IOException;
 import java.net.URL;
@@ -17,7 +18,13 @@ import javafx.stage.StageStyle;
 public class TelaController implements Initializable {
 
 	@FXML
-	private BorderPane rootPane;
+	private BorderPane root;
+	@FXML
+	private Button btnOngs;
+	@FXML
+	private Button btnDoar;
+	@FXML
+	private Button btnUsers1;
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {

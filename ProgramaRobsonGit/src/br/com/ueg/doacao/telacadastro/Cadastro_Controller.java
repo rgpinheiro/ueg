@@ -1,5 +1,15 @@
 package br.com.ueg.doacao.telacadastro;
 
-public class Cadastro_Controller {
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.fxml.Initializable;
+
+public class Cadastro_Controller implements Initializable{
+	
+	@Override
+	public void initialize(URL location, ResourceBundle resources) {
+
+	}
 
 }

@@ -96,7 +96,7 @@
                         <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                      </padding>
                   </Button>
-                  <Button alignment="BOTTOM_CENTER" contentDisplay="TOP" mnemonicParsing="false" prefHeight="100.0" prefWidth="90.0" text="Usuários">
+                  <Button fx:id="btnUsers1" alignment="BOTTOM_CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#adicionaCliente" prefHeight="100.0" prefWidth="90.0" text="Clientes">
                      <graphic>
                         <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
                            <image>

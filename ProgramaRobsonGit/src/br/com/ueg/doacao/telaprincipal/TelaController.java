@@ -1,11 +1,12 @@
 package br.com.ueg.doacao.telaprincipal;
 
 import java.awt.Button;
-import java.awt.event.ActionEvent;
+
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -23,8 +24,7 @@ public class TelaController implements Initializable {
 	private Button btnOngs;
 	@FXML
 	private Button btnDoar;
-	@FXML
-	private Button btnUsers1;
+
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
@@ -44,7 +44,8 @@ public class TelaController implements Initializable {
 	}
 	
 	@FXML
-	private void adicionarUser(ActionEvent event){
+	private void adicionaCliente(ActionEvent event){
+		loadWindow("/br/com/ueg/doacao/telacadastro/TelaCadastro.fxml", "Cadastro de Cliente");
 		
 	}
 	

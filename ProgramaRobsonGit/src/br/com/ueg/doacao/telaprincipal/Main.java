@@ -17,8 +17,7 @@ public class Main extends Application {
 		primaryStage.setScene(scene);
 		primaryStage.setMaximized(true);
 		primaryStage.show();
-		
-		//Vidaloka
+		//
 	}
 
 	public static void main(String[] args) {

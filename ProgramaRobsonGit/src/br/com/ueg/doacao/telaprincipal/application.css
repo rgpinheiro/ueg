@@ -5,6 +5,12 @@
 	-fx-font-size: 18px; 
 	* 
 	*/
+	
+}
+
+.button:hover{
+	
+	-fx-background-color: #B3E5FC;
 }
 
 .label{

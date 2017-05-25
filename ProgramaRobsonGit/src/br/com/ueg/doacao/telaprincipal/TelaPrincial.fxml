@@ -51,9 +51,9 @@
           </Menu>
           <Menu mnemonicParsing="false" text="Relatórios">
             <items>
-              <MenuItem mnemonicParsing="false" text="Relação de Doaçoes" />
-              <MenuItem mnemonicParsing="false" text="Relação de Ongs" />
-              <MenuItem mnemonicParsing="false" text="Relação de Usuários" />
+              <MenuItem mnemonicParsing="false" onAction="#abrirRelatorio1" text="Relação de Doaçoes" />
+              <MenuItem mnemonicParsing="false" onAction="#abrirRelatorio1" text="Relação de Ongs" />
+              <MenuItem mnemonicParsing="false" onAction="#abrirRelatorio1" text="Relação de Usuários" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Ajuda">
@@ -84,7 +84,7 @@
                         <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                      </padding>
                   </Button>
-                  <Button alignment="BOTTOM_CENTER" contentDisplay="TOP" mnemonicParsing="false" prefHeight="100.0" prefWidth="90.0" text="Ongs" textOverrun="WORD_ELLIPSIS">
+                  <Button alignment="BOTTOM_CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#adicionarOngs" prefHeight="100.0" prefWidth="90.0" text="Ongs" textOverrun="WORD_ELLIPSIS">
                      <graphic>
                         <ImageView fitHeight="74.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -96,7 +96,7 @@
                         <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                      </padding>
                   </Button>
-                  <Button fx:id="btnUsers1" alignment="BOTTOM_CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#adicionaCliente" prefHeight="100.0" prefWidth="90.0" text="Clientes">
+                  <Button fx:id="btnUsers" alignment="BOTTOM_CENTER" contentDisplay="TOP" mnemonicParsing="false" prefHeight="100.0" prefWidth="90.0" text="Usuários">
                      <graphic>
                         <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
                            <image>

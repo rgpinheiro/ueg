@@ -5,11 +5,8 @@ import java.util.ResourceBundle;
 
 import javafx.fxml.Initializable;
 
-public class Cadastro_Controller implements Initializable{
+public class Cadastro_Controller{
 	
-	@Override
-	public void initialize(URL location, ResourceBundle resources) {
-
-	}
+	
 
 }

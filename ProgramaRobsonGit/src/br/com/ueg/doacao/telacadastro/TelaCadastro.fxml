@@ -18,14 +18,14 @@
    <top>
       <AnchorPane prefHeight="99.0" prefWidth="677.0" BorderPane.alignment="CENTER">
          <children>
-            <Label layoutX="232.0" layoutY="21.0" text="Cadastro de Clientes">
+            <Label layoutX="232.0" layoutY="21.0" text="Cadastro de Ong">
                <font>
                   <Font size="46.0" />
                </font>
             </Label>
             <ImageView fitHeight="78.0" fitWidth="86.0" layoutX="98.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../icons/UserCadastro.png" />
+                  <Image url="@../icons/building.png" />
                </image>
             </ImageView>
          </children>

@@ -40,12 +40,22 @@ public class TelaController implements Initializable {
 	
 	@FXML
 	private void adicionarOngs(ActionEvent event){
-		
+		loadWindow("/br/com/ueg/doacao/telacadastro/TelaCadastro.fxml", "Cadastro de Ongs");
 	}
 	
 	@FXML
-	private void adicionaCliente(ActionEvent event){
-		loadWindow("/br/com/ueg/doacao/telacadastro/TelaCadastro.fxml", "Cadastro de Cliente");
+	private void abrirRelatorio1(ActionEvent event){
+		loadWindow("/br/com/ueg/doacao/relatorios/SampleController.fxml", "Relatório Igu Igu");
+	}
+	
+	@FXML
+	private void abrirRelatorio2(ActionEvent event){
+		loadWindow("/br/com/ueg/doacao/relatorios/SampleController.fxml", "Relatório Igu Igu");
+	}
+	
+	@FXML
+	private void adicionarUsuario(ActionEvent event){
+		
 		
 	}
 	

@@ -41,6 +41,7 @@ public class TelaController implements Initializable {
 	@FXML
 	private void adicionarOngs(ActionEvent event){
 		loadWindow("/br/com/ueg/doacao/telacadastro/TelaCadastro.fxml", "Cadastro de Ongs");
+		
 	}
 	
 	@FXML

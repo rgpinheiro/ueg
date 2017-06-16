@@ -96,7 +96,7 @@
                         <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                      </padding>
                   </Button>
-                  <Button fx:id="btnUsers" alignment="BOTTOM_CENTER" contentDisplay="TOP" mnemonicParsing="false" prefHeight="100.0" prefWidth="90.0" text="Usuários">
+                  <Button fx:id="btnUsers" alignment="BOTTOM_CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#adicionarUsuario" prefHeight="100.0" prefWidth="90.0" text="Usuários">
                      <graphic>
                         <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -116,11 +116,11 @@
                <children>
                   <Pane fx:id="pane" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                   <BorderPane fx:id="root2" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                  <VBox prefHeight="796.0" prefWidth="1200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <VBox fx:id="vBoxImg" prefHeight="796.0" prefWidth="1200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
                         <ImageView fx:id="imagemPrincipal" nodeOrientation="INHERIT">
                            <image>
-                              <Image url="@../icons/645.jpg" />
+                              <Image url="@../icons/646.png" />
                            </image>
                            <viewport>
                               <Rectangle2D />

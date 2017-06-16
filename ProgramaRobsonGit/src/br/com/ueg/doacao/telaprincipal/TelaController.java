@@ -12,7 +12,10 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.Pane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
@@ -24,54 +27,60 @@ public class TelaController implements Initializable {
 	private Button btnOngs;
 	@FXML
 	private Button btnDoar;
-
+	@FXML
+	private Pane pane;
+	@FXML
+	private VBox vBoxImg;
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 
 	}
-	
-	
+
 	@FXML
-	private void adicionarDoacao(ActionEvent event){
-		
-		
+	private void adicionarDoacao(ActionEvent event) {
+
 	}
-	
+
 	@FXML
-	private void adicionarOngs(ActionEvent event){
-		loadWindow("/br/com/ueg/doacao/telacadastro/TelaCadastro.fxml", "Cadastro de Ongs");
-		
+	private void adicionarOngs(ActionEvent event) {
+		loadWindow("/br/com/ueg/doacao/cadastro/ong/TelaCadastro.fxml", "Cadastro de Ongs");
+
 	}
-	
+
 	@FXML
-	private void abrirRelatorio1(ActionEvent event){
+	private void abrirRelatorio1(ActionEvent event) {
+		loadWindow("/br/com/ueg/doacao/relatorios/SampleController.fxml", "Relatório Igu Igu");
+	}
+
+	@FXML
+	private void abrirRelatorio2(ActionEvent event) {
 		loadWindow("/br/com/ueg/doacao/relatorios/SampleController.fxml", "Relatório Igu Igu");
 	}
 	
+
 	@FXML
-	private void abrirRelatorio2(ActionEvent event){
-		loadWindow("/br/com/ueg/doacao/relatorios/SampleController.fxml", "Relatório Igu Igu");
+	private void adicionarUsuario(ActionEvent event) {
+		loadWindow("/br/com/ueg/doacao/users/Users.fxml", "Cadastro de Usuários");
 	}
-	
-	@FXML
-	private void adicionarUsuario(ActionEvent event){
-		
-		
-	}
-	
-	
+
 	void loadWindow(String loc, String titulo) {
 		try {
+
 			Parent parent = FXMLLoader.load(getClass().getResource(loc));
+			AnchorPane pane = new AnchorPane();
+			vBoxImg.getChildren().setAll(parent);
+			
+
 			Stage stage = new Stage(StageStyle.DECORATED);
 			stage.setTitle(titulo);
 			stage.setScene(new Scene(parent));
 			stage.show();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+
+		} catch (Exception e) {
+			// TODO: handle exception
 		}
+
 	}
 
 }

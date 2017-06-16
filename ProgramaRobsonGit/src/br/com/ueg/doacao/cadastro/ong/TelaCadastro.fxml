@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="571.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.ueg.doacao.cadastro.ong.CadastroController">
+   <children>
+      <AnchorPane layoutY="-2.0" prefHeight="204.0" prefWidth="560.0" AnchorPane.bottomAnchor="306.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="14.0" layoutY="14.0" prefHeight="24.0" prefWidth="353.0" promptText="Razão Social:" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="14.0" />
+            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="280.0" layoutY="14.0" prefHeight="24.0" prefWidth="168.0" promptText="CNPJ:" AnchorPane.rightAnchor="10.0" />
+            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutY="59.0" prefHeight="24.0" prefWidth="353.0" promptText="Nome Fantasia:" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="59.0" />
+            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="10.0" layoutY="108.0" prefHeight="24.0" prefWidth="353.0" promptText="Presidente:" AnchorPane.leftAnchor="10.0" />
+            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="10.0" layoutY="153.0" prefHeight="24.0" prefWidth="353.0" promptText="Representante:" AnchorPane.leftAnchor="10.0" />
+            <JFXComboBox focusColor="#1874cd" labelFloat="true" layoutX="382.0" layoutY="107.0" prefHeight="26.0" prefWidth="168.0" promptText="Tipo de Doação:" AnchorPane.rightAnchor="10.0" />
+            <JFXDatePicker defaultColor="#1874cd" layoutX="382.0" layoutY="56.0" prefHeight="29.0" prefWidth="168.0" promptText="Fundação:" AnchorPane.rightAnchor="10.0" />
+            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="382.0" layoutY="153.0" prefHeight="24.0" prefWidth="168.0" promptText="Telefone:" AnchorPane.rightAnchor="10.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="20.0" layoutY="26.0" text="Cadastro" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Separator layoutX="103.0" layoutY="44.0" prefHeight="0.0" prefWidth="478.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="33.0" />
+      <AnchorPane layoutX="7.0" layoutY="296.0" prefHeight="262.0" prefWidth="560.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="287.0">
+         <children>
+            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="165.0" layoutY="25.0" prefHeight="24.0" prefWidth="327.0" promptText="Logradouro:" AnchorPane.leftAnchor="165.0" AnchorPane.topAnchor="12.0" />
+            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="-24.0" layoutY="24.0" prefHeight="24.0" prefWidth="137.0" promptText="CEP:" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="12.0" />
+            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="509.0" layoutY="12.0" prefHeight="24.0" prefWidth="41.0" promptText="Nº:" AnchorPane.rightAnchor="10.0" />
+            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="10.0" layoutY="56.0" prefHeight="24.0" prefWidth="327.0" promptText="Complemento:" AnchorPane.leftAnchor="10.0" />
+            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="355.0" layoutY="56.0" prefHeight="24.0" prefWidth="196.0" promptText="Bairro:" AnchorPane.rightAnchor="10.0" />
+            <JFXComboBox layoutX="10.0" layoutY="105.0" prefHeight="26.0" prefWidth="41.0" promptText="UF" AnchorPane.leftAnchor="10.0" />
+            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="76.0" layoutY="106.0" prefHeight="24.0" prefWidth="196.0" promptText="Cidade:" />
+            <ImageView fitHeight="24.0" fitWidth="32.0" layoutX="288.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/whatsapp.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="32.0" layoutX="10.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/facebook.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="32.0" layoutX="288.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/email.png" />
+               </image>
+            </ImageView>
+            <JFXTextField layoutX="104.0" layoutY="155.0" prefHeight="24.0" prefWidth="235.0" promptText="Link do Facebook:" AnchorPane.rightAnchor="288.0" />
+            <JFXTextField focusColor="#00cd00" layoutX="312.0" layoutY="155.0" prefHeight="24.0" prefWidth="168.0" promptText="Whatsapp:" />
+            <JFXTextField focusColor="#ee0000" layoutX="312.0" layoutY="106.0" prefHeight="24.0" prefWidth="235.0" promptText="E-mail:" AnchorPane.rightAnchor="10.0" />
+            <JFXButton layoutX="300.0" layoutY="226.0" prefHeight="43.0" prefWidth="94.0" style="-fx-background-color: #00cd00;" text="Comfirmar" textFill="#fffefe" AnchorPane.rightAnchor="160.0" />
+            <JFXButton layoutX="157.0" layoutY="226.0" prefHeight="43.0" prefWidth="94.0" style="-fx-background-color: #ee0000;" text="Cancelar" textFill="WHITE" AnchorPane.leftAnchor="160.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="20.0" layoutY="254.0" text="Endereço">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Separator layoutX="108.0" layoutY="263.0" prefHeight="3.0" prefWidth="472.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="267.0" />
+   </children>
+</AnchorPane>

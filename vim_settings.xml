@@ -1,0 +1,55 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/controllers/TelaPrincipalController.java" timestamp="1497881085554">
+        <mark key="'" line="30" column="118" />
+        <mark key="[" line="30" column="63" />
+        <mark key="]" line="30" column="62" />
+        <mark key="." line="30" column="62" />
+      </file>
+      <file name="$USER_HOME$/worksapce/Login/src/MainAplication.java" timestamp="1497886093986" />
+    </filemarks>
+    <jumps>
+      <jump line="30" column="118" filename="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/controllers/TelaPrincipalController.java" />
+    </jumps>
+    <registers>
+      <register name="1" type="2">
+        <text encoding="base64">aW1wb3J0IGJyLmNvbS5jZXNhci5sb2dpbi52aWV3Lio7Cg==</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">aW1wb3J0IGJyLmNvbS5jZXNhci5sb2dpbi52aWV3Lio7Cg==</text>
+      </register>
+      <register name="-" type="4">
+        <text>l</text>
+      </register>
+      <register name="/" type="4">
+        <text>F</text>
+      </register>
+    </registers>
+    <search>
+      <last-search>F</last-search>
+      <last-offset />
+      <last-pattern>F</last-pattern>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search>
+        <entry>F</entry>
+      </history-search>
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>

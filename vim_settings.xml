@@ -12,10 +12,10 @@
         <mark key="]" line="30" column="62" />
         <mark key="." line="30" column="62" />
       </file>
-      <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/model/SalvaDao.java" timestamp="1498146624306">
-        <mark key="[" line="22" column="8" />
-        <mark key="]" line="22" column="8" />
-        <mark key="." line="22" column="8" />
+      <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/model/SalvaDao.java" timestamp="1498148147582">
+        <mark key="[" line="24" column="46" />
+        <mark key="]" line="24" column="46" />
+        <mark key="." line="24" column="46" />
       </file>
       <file name="/fragment.java" timestamp="1498146171629">
         <mark key="[" line="0" column="0" />
@@ -30,14 +30,13 @@
 		con = DriverManager.get</text>
       </register>
       <register name="&quot;" type="4">
-        <text>Connection con = null;
-		con = DriverManager.get</text>
+        <text>sqlit</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">aW1wb3J0IGJyLmNvbS5jZXNhci5sb2dpbi52aWV3Lio7Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>sqlite:/home/cesar/</text>
+        <text>sqlit</text>
       </register>
       <register name="/" type="4">
         <text>home</text>

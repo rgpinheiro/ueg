@@ -30,13 +30,13 @@
 		con = DriverManager.get</text>
       </register>
       <register name="&quot;" type="4">
-        <text>sqlit</text>
+        <text>tree/src/br/com/ueg</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">aW1wb3J0IGJyLmNvbS5jZXNhci5sb2dpbi52aWV3Lio7Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>sqlit</text>
+        <text>tree/src/br/com/ueg</text>
       </register>
       <register name="/" type="4">
         <text>home</text>

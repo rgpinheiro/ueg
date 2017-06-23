@@ -2,7 +2,10 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="GenericDao" type="CLASS" />
+      <mapping pattern="Salvar" type="Eclipse" />
+      <mapping pattern="Generic" type="JAVA" />
       <mapping pattern="banco_ongs" type="PLAIN_TEXT" />
+      <mapping pattern="Dao" type="SPI" />
     </extensionMap>
   </component>
 </application>

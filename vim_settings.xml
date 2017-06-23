@@ -6,6 +6,11 @@
       <file name="/Dummy.txt" timestamp="1498196291546">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/worksapce/ueg-Fabio/ProgramaRobsonGit/src/br/com/ueg/doacao/model/GenericDao.java" timestamp="1498230557476">
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="5" column="24" />
+        <mark key="." line="5" column="24" />
+      </file>
       <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/controllers/TelaPrincipalController.java" timestamp="1497881085554">
         <mark key="'" line="30" column="118" />
         <mark key="[" line="30" column="63" />
@@ -41,7 +46,7 @@
 		usuario.setSexo(&quot;macho&quot;);</text>
       </register>
       <register name="&quot;" type="4">
-        <text>getString(&quot;1&quot;))</text>
+        <text>{</text>
       </register>
       <register name="2" type="4">
         <text>usuario.setNome(&quot;oiasdn&quot;);
@@ -74,7 +79,7 @@
         <text encoding="base64">aW1wb3J0IGJyLmNvbS5jZXNhci5sb2dpbi52aWV3Lio7Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>getString(&quot;1&quot;))</text>
+        <text>{</text>
       </register>
       <register name="/" type="4">
         <text>home</text>

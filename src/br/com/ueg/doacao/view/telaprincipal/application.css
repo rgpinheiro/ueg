@@ -1,0 +1,30 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.button{
+	/* -fx-background-radius: 15;
+	//-fx-font-weight: bold;
+	-fx-font-size: 18px; 
+	* 
+	*/
+	
+}
+
+.button:hover{
+	
+	-fx-background-color: #B3E5FC;
+}
+
+.label{
+	/*-fx-font-weight: bold;
+	-fx-font-size: 12px; 
+	* 
+	*/
+}
+
+#btnOngs{
+	
+	
+}
+
+#btnUsers{
+	
+}

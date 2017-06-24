@@ -16,11 +16,11 @@
         <mark key="]" line="10" column="0" />
         <mark key="." line="10" column="0" />
       </file>
-      <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/controllers/TelaPrincipalController.java" timestamp="1497881085554">
-        <mark key="'" line="30" column="118" />
-        <mark key="[" line="30" column="63" />
-        <mark key="]" line="30" column="62" />
-        <mark key="." line="30" column="62" />
+      <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/controllers/TelaPrincipalController.java" timestamp="1498345922964">
+        <mark key="'" line="33" column="118" />
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="33" column="62" />
+        <mark key="." line="33" column="62" />
       </file>
       <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/model/SalvaDao.java" timestamp="1498171670778">
         <mark key="[" line="49" column="43" />
@@ -34,6 +34,16 @@
       </file>
       <file name="$USER_HOME$/worksapce/ueg-Fabio/ProgramaRobsonGit/src/br/com/ueg/doacao/model/Generic.java" timestamp="1498196463921">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/controllers/ControllerPalcoPrincipal.java" timestamp="1498346094032">
+        <mark key="[" line="5" column="38" />
+        <mark key="]" line="5" column="38" />
+        <mark key="." line="5" column="38" />
+      </file>
+      <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/view/Palco.fxml" timestamp="1498346319878">
+        <mark key="[" line="5" column="127" />
+        <mark key="]" line="5" column="126" />
+        <mark key="." line="5" column="126" />
       </file>
       <file name="/fragment.java" timestamp="1498197099681">
         <mark key="[" line="0" column="0" />
@@ -51,7 +61,7 @@
 		usuario.setSexo(&quot;macho&quot;);</text>
       </register>
       <register name="&quot;" type="4">
-        <text encoding="base64">CS8qICAqLw==</text>
+        <text>i</text>
       </register>
       <register name="2" type="4">
         <text>usuario.setNome(&quot;oiasdn&quot;);
@@ -84,7 +94,7 @@
         <text encoding="base64">aW1wb3J0IGJyLmNvbS5jZXNhci5sb2dpbi52aWV3Lio7Cg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">CS8qICAqLw==</text>
+        <text>i</text>
       </register>
       <register name="/" type="4">
         <text>home</text>

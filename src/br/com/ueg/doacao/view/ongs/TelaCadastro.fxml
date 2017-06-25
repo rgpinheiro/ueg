@@ -58,7 +58,7 @@
             <JFXTextField fx:id="facebook" layoutX="104.0" layoutY="155.0" prefHeight="24.0" prefWidth="235.0" promptText="Link do Facebook:" AnchorPane.rightAnchor="288.0" />
             <JFXTextField fx:id="whatsapp" focusColor="#00cd00" layoutX="312.0" layoutY="155.0" prefHeight="24.0" prefWidth="168.0" promptText="Whatsapp:" />
             <JFXTextField fx:id="email" focusColor="#ee0000" layoutX="312.0" layoutY="106.0" prefHeight="24.0" prefWidth="235.0" promptText="E-mail:" AnchorPane.rightAnchor="10.0" />
-            <JFXButton fx:id="salvar" layoutX="147.0" layoutY="219.0" prefHeight="43.0" prefWidth="94.0" style="-fx-background-color: #00cd00;" text="Confirmar" textFill="#fffefe" AnchorPane.rightAnchor="319.0" />
+            <JFXButton fx:id="salvar" onAction="#btCadastrar" layoutX="147.0" layoutY="219.0" prefHeight="43.0" prefWidth="94.0" style="-fx-background-color: #00cd00;" text="Confirmar" textFill="#fffefe" AnchorPane.rightAnchor="319.0" />
             <JFXButton layoutX="307.0" layoutY="219.0" prefHeight="43.0" prefWidth="94.0" style="-fx-background-color: #ee0000;" text="Cancelar" textFill="WHITE" AnchorPane.leftAnchor="307.0" />
          </children>
       </AnchorPane>

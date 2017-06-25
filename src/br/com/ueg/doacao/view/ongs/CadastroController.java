@@ -61,7 +61,7 @@ public class CadastroController implements Initializable {
 
 
     @FXML
-    public void btCadastrar(ActionEvent event) {
+    public void btCadastrar(javafx.event.ActionEvent event) {
 
         Ong ong = new Ong();
 
@@ -124,13 +124,13 @@ public class CadastroController implements Initializable {
 
         uf.setItems(FXCollections.observableArrayList(listaUf));
 
-        List<String> tipoDoaçao = new ArrayList<String>();
+        List<String> doacao = new ArrayList<String>();
 
-        tipoDoaçao.add("Dinheiro");
-        tipoDoaçao.add("Vestuario");
-        tipoDoaçao.add("Eletrodomésticos");
-        tipoDoaçao.add("Alimentos");
-        tipoDoacao.setItems(FXCollections.observableArrayList(tipoDoaçao));
+        doacao.add("Dinheiro");
+        doacao.add("Vestuario");
+        doacao.add("Eletrodomésticos");
+        doacao.add("Alimentos");
+        tipoDoacao.setItems(FXCollections.observableArrayList(doacao));
 
     }
 }

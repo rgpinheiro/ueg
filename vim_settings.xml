@@ -6,7 +6,7 @@
       <file name="/Dummy.txt" timestamp="1498347050855">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/controllers/CadastroController.java" timestamp="1498348125978">
+      <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/controllers/CadastroController.java" timestamp="1498348954668">
         <mark key="'" line="36" column="50" />
         <mark key="[" line="42" column="8" />
         <mark key="]" line="42" column="8" />
@@ -22,7 +22,7 @@
         <mark key="]" line="10" column="0" />
         <mark key="." line="10" column="0" />
       </file>
-      <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/controllers/TelaPrincipalController.java" timestamp="1498348097931">
+      <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/controllers/TelaPrincipalController.java" timestamp="1498348969644">
         <mark key="'" line="31" column="118" />
         <mark key="[" line="33" column="6" />
         <mark key="]" line="33" column="6" />
@@ -64,7 +64,7 @@
         <text encoding="base64">ICAgICAgICBBbmNob3JQYW5lIHJvb3Q7Cg==</text>
       </register>
       <register name="&quot;" type="4">
-        <text>Stage palco = new Stage();</text>
+        <text>ControllerPalcoPrincipal</text>
       </register>
       <register name="2" type="4">
         <text encoding="base64">CVRlbGFQcmluY2lwYWxDb250cm9sbGVyIGNvbnRyb2xsZXIgPSBuZXcgVGVsYVByaW5jaXBhbENvbnRyb2xsZXIoKTsKCQljb250cm9sbGVyLnN0YXJ0VGVsYVByaW5jaXBsYSgpOw==</text>
@@ -102,7 +102,7 @@
         <text encoding="base64">CS8vIFRPRE8gQXV0by1nZW5lcmF0ZWQgY2F0Y2ggYmxvY2sKCQkJZS5wcmludFN0YWNrVHJhY2UoKTsKCQl9</text>
       </register>
       <register name="-" type="4">
-        <text>Stage palco = new Stage();</text>
+        <text>ControllerPalcoPrincipal</text>
       </register>
       <register name="/" type="4">
         <text>home</text>

@@ -3,8 +3,14 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1498231589033">
+      <file name="/Dummy.txt" timestamp="1498347050855">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/controllers/CadastroController.java" timestamp="1498348125978">
+        <mark key="'" line="36" column="50" />
+        <mark key="[" line="42" column="8" />
+        <mark key="]" line="42" column="8" />
+        <mark key="." line="42" column="8" />
       </file>
       <file name="$USER_HOME$/worksapce/ueg-Fabio/ProgramaRobsonGit/src/br/com/ueg/doacao/model/GenericDao.java" timestamp="1498250587597">
         <mark key="[" line="20" column="23" />
@@ -16,85 +22,87 @@
         <mark key="]" line="10" column="0" />
         <mark key="." line="10" column="0" />
       </file>
-      <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/controllers/TelaPrincipalController.java" timestamp="1498345922964">
-        <mark key="'" line="33" column="118" />
-        <mark key="[" line="23" column="0" />
-        <mark key="]" line="33" column="62" />
-        <mark key="." line="33" column="62" />
+      <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/controllers/TelaPrincipalController.java" timestamp="1498348097931">
+        <mark key="'" line="31" column="118" />
+        <mark key="[" line="33" column="6" />
+        <mark key="]" line="33" column="6" />
+        <mark key="." line="33" column="6" />
       </file>
       <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/model/SalvaDao.java" timestamp="1498171670778">
         <mark key="[" line="49" column="43" />
         <mark key="]" line="49" column="43" />
         <mark key="." line="49" column="43" />
       </file>
-      <file name="$USER_HOME$/worksapce/Login/src/MainAplication.java" timestamp="1498167396628">
-        <mark key="[" line="38" column="0" />
-        <mark key="]" line="38" column="0" />
-        <mark key="." line="38" column="0" />
+      <file name="$USER_HOME$/worksapce/Login/src/MainAplication.java" timestamp="1498348173730">
+        <mark key="[" line="17" column="8" />
+        <mark key="]" line="17" column="8" />
+        <mark key="." line="17" column="8" />
       </file>
       <file name="$USER_HOME$/worksapce/ueg-Fabio/ProgramaRobsonGit/src/br/com/ueg/doacao/model/Generic.java" timestamp="1498196463921">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/controllers/ControllerPalcoPrincipal.java" timestamp="1498346094032">
-        <mark key="[" line="5" column="38" />
-        <mark key="]" line="5" column="38" />
-        <mark key="." line="5" column="38" />
+      <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/controllers/ControllerPalcoPrincipal.java" timestamp="1498348333580">
+        <mark key="[" line="19" column="8" />
+        <mark key="]" line="19" column="8" />
+        <mark key="." line="19" column="8" />
       </file>
       <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/view/Palco.fxml" timestamp="1498346319878">
         <mark key="[" line="5" column="127" />
         <mark key="]" line="5" column="126" />
         <mark key="." line="5" column="126" />
       </file>
-      <file name="/fragment.java" timestamp="1498197099681">
+      <file name="/fragment.java" timestamp="1498348149750">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
       <jump line="30" column="118" filename="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/controllers/TelaPrincipalController.java" />
+      <jump line="36" column="50" filename="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/controllers/CadastroController.java" />
     </jumps>
     <registers>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBBbmNob3JQYW5lIHJvb3Q7Cg==</text>
+      </register>
+      <register name="&quot;" type="4">
+        <text>Stage palco = new Stage();</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">CVRlbGFQcmluY2lwYWxDb250cm9sbGVyIGNvbnRyb2xsZXIgPSBuZXcgVGVsYVByaW5jaXBhbENvbnRyb2xsZXIoKTsKCQljb250cm9sbGVyLnN0YXJ0VGVsYVByaW5jaXBsYSgpOw==</text>
+      </register>
+      <register name="3" type="4">
+        <text>palco.setScene(scene);
+		palco.show();</text>
+      </register>
+      <register name="4" type="4">
+        <text>sena = (AnchorPane) FXMLLoader
+                .load(getClass().getClassLoader().getResource(local));</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIHBhbGNvUHJpbmNpcGFsKCl7CiAgICAgICAgCiAgICB9</text>
+      </register>
+      <register name="6" type="4">
         <text>usuario = new Usuario();
 		usuario.setNome(&quot;oiasdn&quot;);
 		usuario.setEmail(&quot;ahschlvasc&quot;);
 		usuario.setSenha(&quot;098765433&quot;);
 		usuario.setSexo(&quot;macho&quot;);</text>
       </register>
-      <register name="&quot;" type="4">
-        <text>i</text>
-      </register>
-      <register name="2" type="4">
+      <register name="7" type="4">
         <text>usuario.setNome(&quot;oiasdn&quot;);
 		usuario.setEmail(&quot;ahschlvasc&quot;);
 		usuario.setSenha(&quot;098765433&quot;);
 		usuario.setSexo(&quot;macho&quot;);</text>
       </register>
-      <register name="3" type="4">
+      <register name="8" type="4">
         <text>{
 			salva.salvar(usuario);
 		}</text>
       </register>
-      <register name="4" type="4">
+      <register name="9" type="4">
         <text encoding="base64">CS8vIFRPRE8gQXV0by1nZW5lcmF0ZWQgY2F0Y2ggYmxvY2sKCQkJZS5wcmludFN0YWNrVHJhY2UoKTsKCQl9</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">CQlTYWx2YURhbyBzYWx2YT0gbmV3IFNhbHZhRGFvKCk7Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">CQl0cnkgewoJCQlDbGFzcy5mb3JOYW1lKCJvcmcuc3FsaXRlLkpEQkMiKTsK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">CQljb24uCg==</text>
-      </register>
-      <register name="8" type="4">
-        <text>Connection con = null;
-		con = DriverManager.get</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IGJyLmNvbS5jZXNhci5sb2dpbi52aWV3Lio7Cg==</text>
-      </register>
       <register name="-" type="4">
-        <text>i</text>
+        <text>Stage palco = new Stage();</text>
       </register>
       <register name="/" type="4">
         <text>home</text>

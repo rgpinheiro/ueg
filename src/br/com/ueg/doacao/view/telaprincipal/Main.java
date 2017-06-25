@@ -26,4 +26,4 @@ public class Main extends Application {
 
 }
 
-// VERSÃO DE CORREÇÃO NO GIT V8 ..
+// VERSï¿½O DE CORREï¿½ï¿½O NO GIT V8 ..

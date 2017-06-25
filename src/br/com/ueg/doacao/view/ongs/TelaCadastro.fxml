@@ -11,18 +11,18 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="571.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.ueg.doacao.view.ongs.CadastroController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="571.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.ueg.doacao.view.ongs.CadastroController">
    <children>
       <AnchorPane layoutY="-2.0" prefHeight="204.0" prefWidth="560.0" AnchorPane.bottomAnchor="306.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="50.0">
          <children>
-            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="14.0" layoutY="14.0" prefHeight="24.0" prefWidth="353.0" promptText="Razão Social:" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="14.0" />
-            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="280.0" layoutY="14.0" prefHeight="24.0" prefWidth="168.0" promptText="CNPJ:" AnchorPane.rightAnchor="10.0" />
-            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutY="59.0" prefHeight="24.0" prefWidth="353.0" promptText="Nome Fantasia:" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="59.0" />
-            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="10.0" layoutY="108.0" prefHeight="24.0" prefWidth="353.0" promptText="Presidente:" AnchorPane.leftAnchor="10.0" />
-            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="10.0" layoutY="153.0" prefHeight="24.0" prefWidth="353.0" promptText="Representante:" AnchorPane.leftAnchor="10.0" />
-            <JFXComboBox focusColor="#1874cd" labelFloat="true" layoutX="382.0" layoutY="107.0" prefHeight="26.0" prefWidth="168.0" promptText="Tipo de Doação:" AnchorPane.rightAnchor="10.0" />
-            <JFXDatePicker defaultColor="#1874cd" layoutX="382.0" layoutY="56.0" prefHeight="29.0" prefWidth="168.0" promptText="Fundação:" AnchorPane.rightAnchor="10.0" />
-            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="382.0" layoutY="153.0" prefHeight="24.0" prefWidth="168.0" promptText="Telefone:" AnchorPane.rightAnchor="10.0" />
+            <JFXTextField fx:id="razaoSocial" focusColor="#1874cd" labelFloat="true" layoutX="14.0" layoutY="14.0" prefHeight="24.0" prefWidth="353.0" promptText="Razão Social:" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="14.0" />
+            <JFXTextField fx:id="cnpj" focusColor="#1874cd" labelFloat="true" layoutX="280.0" layoutY="14.0" prefHeight="24.0" prefWidth="168.0" promptText="CNPJ:" AnchorPane.rightAnchor="10.0" />
+            <JFXTextField fx:id="nomeFantasia" focusColor="#1874cd" labelFloat="true" layoutY="59.0" prefHeight="24.0" prefWidth="353.0" promptText="Nome Fantasia:" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="59.0" />
+            <JFXTextField fx:id="presidente" focusColor="#1874cd" labelFloat="true" layoutX="10.0" layoutY="108.0" prefHeight="24.0" prefWidth="353.0" promptText="Presidente:" AnchorPane.leftAnchor="10.0" />
+            <JFXTextField fx:id="representante" focusColor="#1874cd" labelFloat="true" layoutX="10.0" layoutY="153.0" prefHeight="24.0" prefWidth="353.0" promptText="Representante:" AnchorPane.leftAnchor="10.0" />
+            <JFXComboBox fx:id="tipoDoacao" focusColor="#1874cd" labelFloat="true" layoutX="382.0" layoutY="107.0" prefHeight="26.0" prefWidth="168.0" promptText="Tipo de Doação:" AnchorPane.rightAnchor="10.0" />
+            <JFXDatePicker fx:id="fundacao" defaultColor="#1874cd" layoutX="382.0" layoutY="56.0" prefHeight="29.0" prefWidth="168.0" promptText="Fundação:" AnchorPane.rightAnchor="10.0" />
+            <JFXTextField fx:id="telefone" focusColor="#1874cd" labelFloat="true" layoutX="382.0" layoutY="153.0" prefHeight="24.0" prefWidth="168.0" promptText="Telefone:" AnchorPane.rightAnchor="10.0" />
          </children>
       </AnchorPane>
       <Label layoutX="20.0" layoutY="26.0" text="Cadastro" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
@@ -33,13 +33,13 @@
       <Separator layoutX="103.0" layoutY="44.0" prefHeight="0.0" prefWidth="478.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="33.0" />
       <AnchorPane layoutX="7.0" layoutY="296.0" prefHeight="262.0" prefWidth="560.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="287.0">
          <children>
-            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="165.0" layoutY="25.0" prefHeight="24.0" prefWidth="327.0" promptText="Logradouro:" AnchorPane.leftAnchor="165.0" AnchorPane.topAnchor="12.0" />
-            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="-24.0" layoutY="24.0" prefHeight="24.0" prefWidth="137.0" promptText="CEP:" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="12.0" />
-            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="509.0" layoutY="12.0" prefHeight="24.0" prefWidth="41.0" promptText="Nº:" AnchorPane.rightAnchor="10.0" />
-            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="10.0" layoutY="56.0" prefHeight="24.0" prefWidth="327.0" promptText="Complemento:" AnchorPane.leftAnchor="10.0" />
-            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="355.0" layoutY="56.0" prefHeight="24.0" prefWidth="196.0" promptText="Bairro:" AnchorPane.rightAnchor="10.0" />
-            <JFXComboBox layoutX="10.0" layoutY="105.0" prefHeight="26.0" prefWidth="41.0" promptText="UF" AnchorPane.leftAnchor="10.0" />
-            <JFXTextField focusColor="#1874cd" labelFloat="true" layoutX="76.0" layoutY="106.0" prefHeight="24.0" prefWidth="196.0" promptText="Cidade:" />
+            <JFXTextField fx:id="logradouro" focusColor="#1874cd" labelFloat="true" layoutX="165.0" layoutY="25.0" prefHeight="24.0" prefWidth="327.0" promptText="Logradouro:" AnchorPane.leftAnchor="165.0" AnchorPane.topAnchor="12.0" />
+            <JFXTextField fx:id="cep" focusColor="#1874cd" labelFloat="true" layoutX="-24.0" layoutY="24.0" prefHeight="24.0" prefWidth="137.0" promptText="CEP:" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="12.0" />
+            <JFXTextField fx:id="numero" focusColor="#1874cd" labelFloat="true" layoutX="509.0" layoutY="12.0" prefHeight="24.0" prefWidth="41.0" promptText="Nº:" AnchorPane.rightAnchor="10.0" />
+            <JFXTextField fx:id="complemento" focusColor="#1874cd" labelFloat="true" layoutX="10.0" layoutY="56.0" prefHeight="24.0" prefWidth="327.0" promptText="Complemento:" AnchorPane.leftAnchor="10.0" />
+            <JFXTextField fx:id="bairro" focusColor="#1874cd" labelFloat="true" layoutX="355.0" layoutY="56.0" prefHeight="24.0" prefWidth="196.0" promptText="Bairro:" AnchorPane.rightAnchor="10.0" />
+            <JFXComboBox fx:id="uf" layoutX="10.0" layoutY="105.0" prefHeight="26.0" prefWidth="62.0" promptText="UF" AnchorPane.leftAnchor="10.0" />
+            <JFXTextField fx:id="cidade" focusColor="#1874cd" labelFloat="true" layoutX="84.0" layoutY="106.0" prefHeight="24.0" prefWidth="188.0" promptText="Cidade:" />
             <ImageView fitHeight="24.0" fitWidth="32.0" layoutX="288.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../icons/WhatsApp-icon.png" />
@@ -55,10 +55,10 @@
                   <Image url="@../icons/Gmail_Icon.png" />
                </image>
             </ImageView>
-            <JFXTextField layoutX="104.0" layoutY="155.0" prefHeight="24.0" prefWidth="235.0" promptText="Link do Facebook:" AnchorPane.rightAnchor="288.0" />
-            <JFXTextField focusColor="#00cd00" layoutX="312.0" layoutY="155.0" prefHeight="24.0" prefWidth="168.0" promptText="Whatsapp:" />
-            <JFXTextField focusColor="#ee0000" layoutX="312.0" layoutY="106.0" prefHeight="24.0" prefWidth="235.0" promptText="E-mail:" AnchorPane.rightAnchor="10.0" />
-            <JFXButton layoutX="147.0" layoutY="219.0" prefHeight="43.0" prefWidth="94.0" style="-fx-background-color: #00cd00;" text="Confirmar" textFill="#fffefe" AnchorPane.rightAnchor="319.0" />
+            <JFXTextField fx:id="facebook" layoutX="104.0" layoutY="155.0" prefHeight="24.0" prefWidth="235.0" promptText="Link do Facebook:" AnchorPane.rightAnchor="288.0" />
+            <JFXTextField fx:id="whatsapp" focusColor="#00cd00" layoutX="312.0" layoutY="155.0" prefHeight="24.0" prefWidth="168.0" promptText="Whatsapp:" />
+            <JFXTextField fx:id="email" focusColor="#ee0000" layoutX="312.0" layoutY="106.0" prefHeight="24.0" prefWidth="235.0" promptText="E-mail:" AnchorPane.rightAnchor="10.0" />
+            <JFXButton fx:id="salvar" layoutX="147.0" layoutY="219.0" prefHeight="43.0" prefWidth="94.0" style="-fx-background-color: #00cd00;" text="Confirmar" textFill="#fffefe" AnchorPane.rightAnchor="319.0" />
             <JFXButton layoutX="307.0" layoutY="219.0" prefHeight="43.0" prefWidth="94.0" style="-fx-background-color: #ee0000;" text="Cancelar" textFill="WHITE" AnchorPane.leftAnchor="307.0" />
          </children>
       </AnchorPane>

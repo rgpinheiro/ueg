@@ -56,10 +56,18 @@
         <mark key="]" line="10" column="0" />
         <mark key="." line="10" column="0" />
       </file>
+      <file name="$USER_HOME$/worksapce/ueg-fabio/src/br/com/ueg/doacao/model/Ong.java" timestamp="1498418329711">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="." line="6" column="0" />
+      </file>
       <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/model/SalvaDao.java" timestamp="1498351574931">
         <mark key="[" line="49" column="53" />
         <mark key="]" line="49" column="53" />
         <mark key="." line="49" column="53" />
+      </file>
+      <file name="$USER_HOME$/worksapce/ueg-fabio/src/br/com/ueg/doacao/view/ongs/CadastroController.java" timestamp="1498418005896">
+        <mark key="[" line="56" column="1" />
       </file>
       <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/view/Palco.fxml" timestamp="1498346319878">
         <mark key="[" line="5" column="127" />
@@ -79,7 +87,7 @@
         <text encoding="base64">Ly8JCVVzdWFyaW8gdXN1YXJpbz0gbmV3IFVzdWFyaW8oKTsKLy8JCXVzdWFyaW8gPSBuZXcgVXN1YXJpbygpOwovLwkJdXN1YXJpby5zZXROb21lKCJvaWFzZG4iKTsKLy8JCXVzdWFyaW8uc2V0RW1haWwoImFoc2NobHZzZHZhMTIyMzI1NDU0NTM0NXNkZmdkIik7Ci8vCQl1c3VhcmlvLnNldFNlbmhhKCIwOTg3NjU0MzMiKTsKLy8JCXVzdWFyaW8uc2V0U2V4bygibWFjaG8iKTsKLy8KLy8KLy8KLy8JCVNhbHZhRGFvIHNhbHZhRGFvPSBuZXcgU2FsdmFEYW8oKTsKLy8KLy8JCXNhbHZhRGFvID0gbmV3IFNhbHZhRGFvKCk7Ci8vCQlzYWx2YURhby5zYWx2YXIodXN1YXJpbyk7Ci8vCg==</text>
       </register>
       <register name="&quot;" type="4">
-        <text encoding="base64">IHNlbmhh</text>
+        <text>}</text>
       </register>
       <register name="2" type="4">
         <text encoding="base64">Cg==</text>
@@ -117,7 +125,7 @@
         <text encoding="base64">CVRlbGFQcmluY2lwYWxDb250cm9sbGVyIGNvbnRyb2xsZXIgPSBuZXcgVGVsYVByaW5jaXBhbENvbnRyb2xsZXIoKTsKCQljb250cm9sbGVyLnN0YXJ0VGVsYVByaW5jaXBsYSgpOw==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHNlbmhh</text>
+        <text>}</text>
       </register>
       <register name="/" type="4">
         <text>home</text>

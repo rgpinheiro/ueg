@@ -1,2 +1,0 @@
-PGDMP
-bonjour_name = ''

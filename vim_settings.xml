@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1498432821999">
+      <file name="/Dummy.txt" timestamp="1498434195028">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/controllers/CadastroController.java" timestamp="1498356042384">
@@ -23,10 +23,10 @@
         <mark key="]" line="33" column="24" />
         <mark key="." line="33" column="24" />
       </file>
-      <file name="$USER_HOME$/worksapce/ueg-fabio/src/br/com/ueg/doacao/model/dao/CadastroDao.java" timestamp="1498426832990">
-        <mark key="[" line="43" column="8" />
-        <mark key="]" line="43" column="8" />
-        <mark key="." line="43" column="8" />
+      <file name="$USER_HOME$/worksapce/ueg-fabio/src/br/com/ueg/doacao/model/dao/CadastroDao.java" timestamp="1498435714243">
+        <mark key="[" line="15" column="32" />
+        <mark key="]" line="48" column="8" />
+        <mark key="." line="48" column="8" />
       </file>
       <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/controllers/TelaPrincipalController.java" timestamp="1498414501077">
         <mark key="'" line="38" column="118" />
@@ -39,6 +39,7 @@
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
       </file>
+      <file name="$USER_HOME$/worksapce/ueg-fabio/src/br/com/ueg/doacao/view/telaprincipal/TelaController.java" timestamp="1498434756517" />
       <file name="$USER_HOME$/worksapce/Login/src/MainAplication.java" timestamp="1498414324620">
         <mark key="[" line="25" column="0" />
         <mark key="]" line="25" column="0" />
@@ -62,6 +63,9 @@
         <mark key="^" line="21" column="88" />
       </file>
       <file name="$USER_HOME$/worksapce/ueg-fabio/src/br/com/ueg/doacao/model/dao/Conexao.java" timestamp="1498426880544" />
+      <file name="$USER_HOME$/worksapce/ueg-fabio/src/br/com/ueg/doacao/view/telaprincipal/Main.java" timestamp="1498435640288">
+        <mark key="[" line="44" column="0" />
+      </file>
       <file name="$USER_HOME$/worksapce/ueg-Fabio/ProgramaRobsonGit/src/br/com/ueg/doacao/telaprincipal/Main.java" timestamp="1498232132234">
         <mark key="[" line="10" column="0" />
         <mark key="]" line="10" column="0" />
@@ -75,13 +79,15 @@
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
       </file>
-      <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/model/SalvaDao.java" timestamp="1498351574931">
+      <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/model/SalvaDao.java" timestamp="1498435678299">
         <mark key="[" line="49" column="53" />
         <mark key="]" line="49" column="53" />
         <mark key="." line="49" column="53" />
       </file>
-      <file name="$USER_HOME$/worksapce/ueg-fabio/src/br/com/ueg/doacao/view/ongs/CadastroController.java" timestamp="1498429485795">
-        <mark key="[" line="134" column="4" />
+      <file name="$USER_HOME$/worksapce/ueg-fabio/src/br/com/ueg/doacao/view/ongs/CadastroController.java" timestamp="1498435379024">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="0" />
+        <mark key="." line="12" column="0" />
       </file>
       <file name="$USER_HOME$/worksapce/Login/src/br/com/cesar/login/view/Palco.fxml" timestamp="1498346319878">
         <mark key="[" line="5" column="127" />
@@ -98,33 +104,36 @@
     </jumps>
     <registers>
       <register name="1" type="4">
-        <text encoding="base64">Ly8JCVVzdWFyaW8gdXN1YXJpbz0gbmV3IFVzdWFyaW8oKTsKLy8JCXVzdWFyaW8gPSBuZXcgVXN1YXJpbygpOwovLwkJdXN1YXJpby5zZXROb21lKCJvaWFzZG4iKTsKLy8JCXVzdWFyaW8uc2V0RW1haWwoImFoc2NobHZzZHZhMTIyMzI1NDU0NTM0NXNkZmdkIik7Ci8vCQl1c3VhcmlvLnNldFNlbmhhKCIwOTg3NjU0MzMiKTsKLy8JCXVzdWFyaW8uc2V0U2V4bygibWFjaG8iKTsKLy8KLy8KLy8KLy8JCVNhbHZhRGFvIHNhbHZhRGFvPSBuZXcgU2FsdmFEYW8oKTsKLy8KLy8JCXNhbHZhRGFvID0gbmV3IFNhbHZhRGFvKCk7Ci8vCQlzYWx2YURhby5zYWx2YXIodXN1YXJpbyk7Ci8vCg==</text>
+        <text encoding="base64">CmltcG9ydCBqYXZhLmF3dC5ldmVudC5BY3Rpb25FdmVudDs=</text>
       </register>
       <register name="&quot;" type="4">
-        <text>stm.setString(10,ong.getLogradouro());</text>
+        <text encoding="base64">CmltcG9ydCBqYXZhLmF3dC5ldmVudC5BY3Rpb25FdmVudDs=</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8JCVVzdWFyaW8gdXN1YXJpbz0gbmV3IFVzdWFyaW8oKTsKLy8JCXVzdWFyaW8gPSBuZXcgVXN1YXJpbygpOwovLwkJdXN1YXJpby5zZXROb21lKCJvaWFzZG4iKTsKLy8JCXVzdWFyaW8uc2V0RW1haWwoImFoc2NobHZzZHZhMTIyMzI1NDU0NTM0NXNkZmdkIik7Ci8vCQl1c3VhcmlvLnNldFNlbmhhKCIwOTg3NjU0MzMiKTsKLy8JCXVzdWFyaW8uc2V0U2V4bygibWFjaG8iKTsKLy8KLy8KLy8KLy8JCVNhbHZhRGFvIHNhbHZhRGFvPSBuZXcgU2FsdmFEYW8oKTsKLy8KLy8JCXNhbHZhRGFvID0gbmV3IFNhbHZhRGFvKCk7Ci8vCQlzYWx2YURhby5zYWx2YXIodXN1YXJpbyk7Ci8vCg==</text>
       </register>
       <register name="3" type="4">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="4">
         <text>if (confere(usuario.getSenha()) == false)){
     
             }</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>if(usuario.getNome() usuario.getEmail()|| usuario.getSenha()||usuario.getSexo()==) {
 
 		}</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>else{
             
         }</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">aWYgKG5vbWUgPT0gIiIgfHwgc2VuaGEgPT0gIiIgfHwgZW1haWwgPT0gIiIgfHwgc2V4byA9PSAiIikgewoJCQlyZXR1cm4gbWVuc2FnZW0xOwoJCX0KCQlpZiAobm9tZSA9PSAiIiB8fCBzZW5oYSA9PSAiIiB8fCBlbWFpbCA9PSAiIiB8fCBzZXhvID09ICIiICYmIGNvbmZlcmUoc2VuaGEpID09IGZhbHNlKSB7CgkJCXJldHVybiBtZW5zYWdlbTEgKyAiL24iICsgbWVuc2FnZW0yOwoJCX0=</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>Usuario novoUsuario = new Usuario();
 
 			novoUsuario.setNome(nome);
@@ -132,11 +141,8 @@
 			novoUsuario.setEmail(email);
 			novoUsuario.setSexo(sexo);</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICBBbmNob3JQYW5lIHJvb3Q7Cg==</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">CVRlbGFQcmluY2lwYWxDb250cm9sbGVyIGNvbnRyb2xsZXIgPSBuZXcgVGVsYVByaW5jaXBhbENvbnRyb2xsZXIoKTsKCQljb250cm9sbGVyLnN0YXJ0VGVsYVByaW5jaXBsYSgpOw==</text>
       </register>
       <register name="-" type="4">
         <text>stm.setString(10,ong.getLogradouro());</text>
